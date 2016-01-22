@@ -1,29 +1,28 @@
 .chapter {
-  background-color: #ccc;
+  background-color: #fff;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: cursive;
 }
-ul,  /* ul is unordered list li is list item*/
-li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-  float: left;
-  display: inline-block;
-  background-color: #666;
-  width: 33.3%;
-}
-ul:after {
-  content: "";
-  clear: both;
-  height: 0;
-  width: 0;
+.image  {
+  background-color: #fff;
+  width: 50%;
+  max-width: 200px;
+  margin: 0 auto;
   display: block;
 }
 a {
   display: block;
-  background-color: darkblue;
+  background-color: aliceblue;
   color: #fff;
   text-align: center;
   text-decoration: none;
+}
+
+body {
+  background-color: white;
+  /*background-image: url(../img/alice_fancy.jpg);*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
 }
