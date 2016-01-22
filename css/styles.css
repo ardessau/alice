@@ -1,7 +1,16 @@
+.index {
+  background-color: #fff;
+  width: 50%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-family: cursive;
+}
 .chapter {
   background-color: #fff;
   width: 80%;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   font-family: cursive;
 }
@@ -15,7 +24,7 @@
 a {
   display: block;
   background-color: aliceblue;
-  color: #fff;
+  color: #000;
   text-align: center;
   text-decoration: none;
 }
